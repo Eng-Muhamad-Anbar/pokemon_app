@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         nextRoute: "/home",
         splash: 'assets/images/flutter-logo.png',
         nextScreen: const HomeView(),
-        duration: 3,
+        duration: 3000,
       ),
       getPages: appPages,
       builder: BotToastInit(),
